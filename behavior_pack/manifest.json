@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Pickaxe Reset Vault",
+    "description": "https://github.com/KaiZhou554/pickaxe_reset_vault",
+    "uuid": "4105cba0-4de3-4f6c-8ad2-f2a791425c89",
+    "version": [1, 0, 4],
+    "min_engine_version": [1, 21, 40]
+  },
+  "modules": [
+    {
+      "language": "javascript",
+      "type": "script",
+      "uuid": "d1afa604-31a4-4c24-9393-5e4b676341f6",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.15.0"
+    }
+  ]
+}
